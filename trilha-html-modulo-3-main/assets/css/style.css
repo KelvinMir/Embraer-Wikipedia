@@ -1,0 +1,308 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+a {
+  color: #464242;
+  text-decoration: none;
+}
+
+.bar {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #681e1e;
+  border-top: none;
+  border-bottom: none;
+}
+
+.header {
+  background-image: url(/trilha-html-modulo-3-main/assets/images/hunter.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px; /* Defina uma altura adequada para a div */
+}
+
+.content {
+  background-color: #ffffff;
+  max-width: 1280px;
+  margin-left: 55px;
+  display: grid;
+  grid-template-areas:
+    "sidebar main anchors";
+  grid-template-columns:
+    minmax(15rem, 1fr)
+    minmax(2.5fr, 1fr)
+    minmax(15rem, 1fr);
+  gap: 3rem;
+  padding: 0 20px;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  grid-area: main;
+}
+
+.anchors {
+  background-color: #ffffff;
+  padding: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 80px;
+  margin-right: 0;
+  margin-left: 0;
+  grid-area: anchors;
+}
+
+.anchors img {
+  width: 200px;
+  right: 0;
+}
+
+.sidebar {
+  border-right: 1px solid #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  grid-area: sidebar;
+}
+
+.sidebar li {
+  padding-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Esquerda {
+  /* Configurações personalizadas para a figura */
+  flex-direction: column;
+  text-align: center;
+  margin-left: 2px;
+  float: left;
+}
+
+.Esquerda img {
+  /* Configurações personalizadas para a imagem dentro da figura */
+  width: 100%;
+  margin-top: 1px;
+}
+
+.Esquerda figcaption {
+  /* Configurações personalizadas para a legenda da imagem dentro da figura */
+  font-style: italic;
+  flex-direction: column;
+  margin-left: 0;
+  clear: both;
+}
+
+.Direita {
+  /* Configurações personalizadas para a figura */
+  flex-direction: column;
+  text-align: center;
+  margin-left: 2px;
+  float: right;
+}
+
+.Direita img {
+  /* Configurações personalizadas para a imagem dentro da figura */
+  width: 100%;
+  margin-top: 0;
+}
+
+.Direita figcaption {
+  /* Configurações personalizadas para a legenda da imagem dentro da figura */
+  font-style: italic;
+  flex-direction: column;
+  margin-left: 0;
+  clear: both;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+a {
+  color: #658eb7;
+  text-decoration: none;
+}
+
+.bar {
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #681e1e;
+  border-top: none;
+  border-bottom: none;
+}
+
+.header {
+  background-image: url(/trilha-html-modulo-3-main/assets/images/hunter.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; /* Defina uma altura adequada para a div */
+}
+
+.content {
+  background-color: #ffffff;
+  max-width: 1280px;
+  margin-left: 55px;
+  display: grid;
+  grid-template-areas:
+    "sidebar main anchors";
+  grid-template-columns:
+    minmax(15rem, 1fr)
+    minmax(2.5fr, 1fr)
+    minmax(15rem, 1fr);
+  gap: 3rem;
+  padding: 0 20px;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  grid-area: main;
+}
+
+.anchors {
+  text-align: center;
+}
+
+figure {
+  display: inline-block;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  margin-top: 5px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+}
+
+
+
+.sidebar {
+  border-right: 1px solid #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  grid-area: sidebar;
+}
+
+.sidebar li {
+  padding-bottom: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Esquerda {
+  /* Configurações personalizadas para a figura */
+  flex-direction: column;
+  text-align: center;
+  margin-left: 2px;
+  float: left;
+}
+
+.Esquerda img {
+  /* Configurações personalizadas para a imagem dentro da figura */
+  width: 100%;
+  margin-top: 1px;
+}
+
+.Esquerda figcaption {
+  /* Configurações personalizadas para a legenda da imagem dentro da figura */
+  font-style: italic;
+  flex-direction: column;
+  margin-left: 0;
+  clear: both;
+}
+
+.Direita {
+  /* Configurações personalizadas para a figura */
+  flex-direction: column;
+  text-align: center;
+  margin-left: 2px;
+  float: right;
+}
+
+.Direita img {
+  /* Configurações personalizadas para a imagem dentro da figura */
+  width: 100%;
+  margin-top: 0;
+}
+
+.Direita figcaption {
+  /* Configurações personalizadas para a legenda da imagem dentro da figura */
+  font-style: italic;
+  flex-direction: column;
+  margin-left: 0;
+  clear: both;
+}
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-contact p {
+  margin-bottom: 5px;
+}
+
+.footer-bottom {
+  margin-top: 10px;
+  text-align: center;
+  color: #666;
+}
+
+
